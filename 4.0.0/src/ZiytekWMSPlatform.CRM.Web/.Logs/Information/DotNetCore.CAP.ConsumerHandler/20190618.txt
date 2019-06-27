@@ -1,0 +1,77 @@
+#################### 06/18/2019 13:58:52.2378407 ###############
+Message:    RabbitMQ consumer registered. --> amq.ctag-wBCw7lnqeN9t4SDDdfoGCg
+StackTrace: at DotNetCore.CAP.ConsumerHandler.WriteLog(Object sender, LogMessageEventArgs logmsg)
+   at RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher.<>c__DisplayClass10_0.<HandleBasicConsumeOk>b__0()
+   at RabbitMQ.Client.ConsumerWorkService.WorkPool.Loop()
+   at System.Threading.Thread.ThreadMain_ThreadStart()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/18/2019 19:18:39.5850620 ###############
+Message:    RabbitMQ consumer registered. --> amq.ctag-3Am-wH8MmRYjNKXWhJLXEg
+StackTrace: at DotNetCore.CAP.ConsumerHandler.WriteLog(Object sender, LogMessageEventArgs logmsg)
+   at RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher.<>c__DisplayClass10_0.<HandleBasicConsumeOk>b__0()
+   at RabbitMQ.Client.ConsumerWorkService.WorkPool.Loop()
+   at System.Threading.Thread.ThreadMain_ThreadStart()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/18/2019 19:22:12.2965483 ###############
+Message:    RabbitMQ consumer registered. --> amq.ctag-lGlKXNi-OkVcmT77JXAZUw
+StackTrace: at DotNetCore.CAP.ConsumerHandler.WriteLog(Object sender, LogMessageEventArgs logmsg)
+   at RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher.<>c__DisplayClass10_0.<HandleBasicConsumeOk>b__0()
+   at RabbitMQ.Client.ConsumerWorkService.WorkPool.Loop()
+   at System.Threading.Thread.ThreadMain_ThreadStart()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/18/2019 19:26:03.6565373 ###############
+Message:    RabbitMQ consumer registered. --> amq.ctag-83IZ1IQ8w__L-1uPAEpSkQ
+StackTrace: at DotNetCore.CAP.ConsumerHandler.WriteLog(Object sender, LogMessageEventArgs logmsg)
+   at RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher.<>c__DisplayClass10_0.<HandleBasicConsumeOk>b__0()
+   at RabbitMQ.Client.ConsumerWorkService.WorkPool.Loop()
+   at System.Threading.Thread.ThreadMain_ThreadStart()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/18/2019 19:28:49.6372540 ###############
+Message:    RabbitMQ consumer registered. --> amq.ctag-aqwfQvP_FzpyKePwhZyeMw
+StackTrace: at DotNetCore.CAP.ConsumerHandler.WriteLog(Object sender, LogMessageEventArgs logmsg)
+   at RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher.<>c__DisplayClass10_0.<HandleBasicConsumeOk>b__0()
+   at RabbitMQ.Client.ConsumerWorkService.WorkPool.Loop()
+   at System.Threading.Thread.ThreadMain_ThreadStart()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/18/2019 19:30:01.3284497 ###############
+Message:    RabbitMQ consumer registered. --> amq.ctag-tOsjVXpd7An4C4cuKK8ytQ
+StackTrace: at DotNetCore.CAP.ConsumerHandler.WriteLog(Object sender, LogMessageEventArgs logmsg)
+   at RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher.<>c__DisplayClass10_0.<HandleBasicConsumeOk>b__0()
+   at RabbitMQ.Client.ConsumerWorkService.WorkPool.Loop()
+   at System.Threading.Thread.ThreadMain_ThreadStart()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/18/2019 19:59:30.7144875 ###############
+Message:    RabbitMQ consumer registered. --> amq.ctag-msFCK5GdADX33TrGcYpukA
+StackTrace: at DotNetCore.CAP.ConsumerHandler.WriteLog(Object sender, LogMessageEventArgs logmsg)
+   at RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher.<>c__DisplayClass10_0.<HandleBasicConsumeOk>b__0()
+   at RabbitMQ.Client.ConsumerWorkService.WorkPool.Loop()
+   at System.Threading.Thread.ThreadMain_ThreadStart()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/18/2019 20:05:06.1292022 ###############
+Message:    RabbitMQ consumer registered. --> amq.ctag-WcxRhHXPz5s4FriVErDKrQ
+StackTrace: at DotNetCore.CAP.ConsumerHandler.WriteLog(Object sender, LogMessageEventArgs logmsg)
+   at RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher.<>c__DisplayClass10_0.<HandleBasicConsumeOk>b__0()
+   at RabbitMQ.Client.ConsumerWorkService.WorkPool.Loop()
+   at System.Threading.Thread.ThreadMain_ThreadStart()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/18/2019 20:08:10.1934885 ###############
+Message:    RabbitMQ consumer registered. --> amq.ctag-TD1w0-XIJgk6xFU7pe0aCA
+StackTrace: at DotNetCore.CAP.ConsumerHandler.WriteLog(Object sender, LogMessageEventArgs logmsg)
+   at RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher.<>c__DisplayClass10_0.<HandleBasicConsumeOk>b__0()
+   at RabbitMQ.Client.ConsumerWorkService.WorkPool.Loop()
+   at System.Threading.Thread.ThreadMain_ThreadStart()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/18/2019 20:46:29.1962493 ###############
+Message:    RabbitMQ consumer registered. --> amq.ctag-eoBqPIJd-0PeNuncaOIiOw
+StackTrace: at DotNetCore.CAP.ConsumerHandler.WriteLog(Object sender, LogMessageEventArgs logmsg)
+   at RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher.<>c__DisplayClass10_0.<HandleBasicConsumeOk>b__0()
+   at RabbitMQ.Client.ConsumerWorkService.WorkPool.Loop()
+   at System.Threading.Thread.ThreadMain_ThreadStart()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/18/2019 20:57:12.3293306 ###############
+Message:    RabbitMQ consumer registered. --> amq.ctag-Fw8zhTrx7OkA3qjha1v43A
+StackTrace: at DotNetCore.CAP.ConsumerHandler.WriteLog(Object sender, LogMessageEventArgs logmsg)
+   at RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher.<>c__DisplayClass10_0.<HandleBasicConsumeOk>b__0()
+   at RabbitMQ.Client.ConsumerWorkService.WorkPool.Loop()
+   at System.Threading.Thread.ThreadMain_ThreadStart()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)

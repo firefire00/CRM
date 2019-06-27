@@ -1,0 +1,44 @@
+#################### 06/21/2019 16:04:55.2919026 ###############
+Message:    Executing ViewResult, running view Index.
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.<ExecuteAsync>d__6.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+#################### 06/21/2019 16:04:55.9125698 ###############
+Message:    Executed ViewResult - view Index executed in 675.5577ms.
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted(ILogger logger, String viewName, TimeSpan timespan)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.<ExecuteAsync>d__6.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/21/2019 17:19:11.5502128 ###############
+Message:    Executing ViewResult, running view Index.
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.FindView(ActionContext actionContext, ViewResult viewResult)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.<ExecuteAsync>d__6.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+#################### 06/21/2019 17:19:12.3365755 ###############
+Message:    Executed ViewResult - view Index executed in 866.9956ms.
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.MvcViewFeaturesLoggerExtensions.ViewResultExecuted(ILogger logger, String viewName, TimeSpan timespan)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.<ExecuteAsync>d__6.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)

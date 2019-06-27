@@ -1,0 +1,40 @@
+#################### 06/24/2019 10:29:43.9044954 ###############
+Message:    Executing ObjectResult, writing value of type 'Nezada.Common.Model.NezadaJsonDto'.
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=58e72855e2bb4db38a936190f7548c6f&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:39:51.2406197 ###############
+Message:    Executing ObjectResult, writing value of type 'Nezada.Common.Model.NezadaJsonDto'.
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=58e72855e2bb4db38a936190f7548c6f&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:40:07.9506072 ###############
+Message:    Executing ObjectResult, writing value of type 'Nezada.Common.Model.NezadaJsonDto'.
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=7371d63c223a4586aeeb13cc3bf73785&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:40:50.5711696 ###############
+Message:    Executing ObjectResult, writing value of type 'Nezada.Common.Model.NezadaJsonDto'.
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=7371d63c223a4586aeeb13cc3bf73785&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)

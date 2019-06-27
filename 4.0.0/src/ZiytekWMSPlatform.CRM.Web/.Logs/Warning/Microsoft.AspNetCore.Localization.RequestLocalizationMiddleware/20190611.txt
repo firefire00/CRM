@@ -1,0 +1,1276 @@
+#################### 06/11/2019 20:38:37.8089221 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:37.8104493 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:37.8839410 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:37.8849868 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0738767 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/toastr/toastr.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0738767 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/bootstrap-paper/bootstrap.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0748990 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/sweetalert/dist/sweetalert.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0749493 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/toastr/toastr.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0753038 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/bootstrap-paper/bootstrap.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0769388 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/font-awesome/css/font-awesome.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0769388 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/sweetalert/dist/sweetalert.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0771551 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/bootstrap-paper/bootstrap.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0772383 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/toastr/toastr.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0776536 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/sweetalert/dist/sweetalert.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0780276 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0783819 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/sweetalert/dist/sweetalert.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0789241 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/bootstrap-paper/bootstrap.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0794324 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/toastr/toastr.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0799732 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/font-awesome/css/font-awesome.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0807276 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0830940 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/font-awesome/css/font-awesome.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0839251 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0842372 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/font-awesome/css/font-awesome.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.0848868 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1144066 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/css/main.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1153890 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/css/main.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1161890 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/css/main.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1168629 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/css/main.css
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1263849 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/jquery/dist/jquery.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1271153 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/jquery/dist/jquery.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1279050 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/jquery/dist/jquery.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1290041 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/jquery/dist/jquery.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1313217 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/bootstrap/dist/js/bootstrap.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1340711 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/json2/json2.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1344851 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/bootstrap/dist/js/bootstrap.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1390522 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/json2/json2.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1408786 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/json2/json2.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1408786 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/moment/min/moment-with-locales.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1408873 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/bootstrap/dist/js/bootstrap.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1416322 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/json2/json2.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1423227 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/bootstrap/dist/js/bootstrap.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1465609 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/moment/min/moment-with-locales.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1470915 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/jquery-validation/dist/jquery.validate.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1476218 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/moment/min/moment-with-locales.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1480962 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/jquery-validation/dist/jquery.validate.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1487547 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/jquery-validation/dist/jquery.validate.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1494783 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/moment/min/moment-with-locales.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1515033 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/jquery-validation/dist/jquery.validate.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1773712 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/blockUI/jquery.blockUI.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1788413 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/blockUI/jquery.blockUI.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1812136 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/blockUI/jquery.blockUI.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1841754 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/blockUI/jquery.blockUI.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1904927 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/toastr/toastr.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1942570 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/toastr/toastr.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.1972792 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/toastr/toastr.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2005601 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/sweetalert/dist/sweetalert-dev.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2012884 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/toastr/toastr.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2015864 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/sweetalert/dist/sweetalert-dev.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2053083 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/sweetalert/dist/sweetalert-dev.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2066276 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/sweetalert/dist/sweetalert-dev.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2180583 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/spin.js/spin.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2216048 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/spin.js/spin.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2222732 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/spin.js/jquery.spin.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2227919 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/spin.js/spin.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2238379 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/spin.js/jquery.spin.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2239059 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/spin.js/spin.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2264422 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/spin.js/jquery.spin.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2280571 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/spin.js/jquery.spin.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2449927 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/abp.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2461499 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/abp.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2477145 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/abp.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2510935 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/abp.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2570242 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2571004 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2578957 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2597982 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2598005 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2613540 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2613539 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2639526 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2643438 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2656605 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2667443 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2679699 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2790740 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2801772 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2826041 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2826996 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2852302 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2869923 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2872912 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2906225 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2975593 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636958823188958501
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2987973 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636958823188958501
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.2996483 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636958823188958501
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3008338 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636958823188958501
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3013694 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636958823188969558
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3027082 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636958823188969558
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3041194 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636958823188969558
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3060207 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636958823188969558
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3616494 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/js/views/home/index.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3626947 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/js/views/home/index.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3642248 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/js/views/home/index.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3656710 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/js/views/home/index.js
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3760357 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3770545 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3785746 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3798321 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3899608 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3908294 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3916965 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.3923661 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.6497102 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported cultures 'zh-Hans'.
+Path:       http://localhost:5007/favicon.ico
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.6529899 ###############
+Message:    CookieRequestCultureProvider returned the following unsupported UI Cultures 'zh-Hans'.
+Path:       http://localhost:5007/favicon.ico
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.6582149 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/favicon.ico
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedCultures(ILogger logger, String requestCultureProvider, IList`1 cultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+#################### 06/11/2019 20:38:39.6593941 ###############
+Message:    AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh, zh-TW'.
+Path:       http://localhost:5007/favicon.ico
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Localization.Internal.RequestCultureProviderLoggerExtensions.UnsupportedUICultures(ILogger logger, String requestCultureProvider, IList`1 uiCultures)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.<Invoke>d__5.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()

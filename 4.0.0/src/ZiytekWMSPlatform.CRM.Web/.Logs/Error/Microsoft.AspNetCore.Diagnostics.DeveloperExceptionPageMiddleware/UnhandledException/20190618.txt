@@ -1,0 +1,407 @@
+#################### 06/18/2019 13:58:56.1812430 ###############
+Message:    An unhandled exception has occurred while executing the request.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636964631354798098
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+Error:      AbpException=> Only one complex type allowed as argument to a controller action that's binding source is 'Body'. But ImportCustomerMaterial (api/services/app/DescCustomerMaterial/ImportCustomerMaterial) contains more than one!
+   at Abp.Web.Api.ProxyScripting.Generators.ProxyScriptingHelper.GenerateBody(ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\ProxyScriptingHelper.cs:line 51
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddAjaxCallParameters(StringBuilder script, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 102
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddActionScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 76
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddControllerScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 58
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddModuleScript(StringBuilder script, ModuleApiDescriptionModel module) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 40
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.CreateScript(ApplicationApiDescriptionModel model) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 24
+   at Abp.Web.Api.ProxyScripting.ApiProxyScriptManager.CreateScript(ApiProxyGenerationOptions options) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\ApiProxyScriptManager.cs:line 59
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll(ApiProxyGenerationModel model) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Proxying\AbpServiceProxiesController.cs:line 27
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+#################### 06/18/2019 19:18:45.2437757 ###############
+Message:    An unhandled exception has occurred while executing the request.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636964823245059085
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+Error:      AbpException=> Only one complex type allowed as argument to a controller action that's binding source is 'Body'. But ImportCustomerMaterial (api/services/app/DescCustomerMaterial/ImportCustomerMaterial) contains more than one!
+   at Abp.Web.Api.ProxyScripting.Generators.ProxyScriptingHelper.GenerateBody(ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\ProxyScriptingHelper.cs:line 51
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddAjaxCallParameters(StringBuilder script, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 102
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddActionScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 76
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddControllerScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 58
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddModuleScript(StringBuilder script, ModuleApiDescriptionModel module) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 40
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.CreateScript(ApplicationApiDescriptionModel model) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 24
+   at Abp.Web.Api.ProxyScripting.ApiProxyScriptManager.CreateScript(ApiProxyGenerationOptions options) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\ApiProxyScriptManager.cs:line 59
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll(ApiProxyGenerationModel model) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Proxying\AbpServiceProxiesController.cs:line 27
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+#################### 06/18/2019 19:22:16.1700046 ###############
+Message:    An unhandled exception has occurred while executing the request.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636964825355721827
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+Error:      AbpException=> Only one complex type allowed as argument to a controller action that's binding source is 'Body'. But ImportCustomerMaterial (api/services/app/DescCustomerMaterial/ImportCustomerMaterial) contains more than one!
+   at Abp.Web.Api.ProxyScripting.Generators.ProxyScriptingHelper.GenerateBody(ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\ProxyScriptingHelper.cs:line 51
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddAjaxCallParameters(StringBuilder script, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 102
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddActionScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 76
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddControllerScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 58
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddModuleScript(StringBuilder script, ModuleApiDescriptionModel module) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 40
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.CreateScript(ApplicationApiDescriptionModel model) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 24
+   at Abp.Web.Api.ProxyScripting.ApiProxyScriptManager.CreateScript(ApiProxyGenerationOptions options) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\ApiProxyScriptManager.cs:line 59
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll(ApiProxyGenerationModel model) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Proxying\AbpServiceProxiesController.cs:line 27
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+#################### 06/18/2019 19:26:07.7739336 ###############
+Message:    An unhandled exception has occurred while executing the request.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636964827672016943
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+Error:      AbpException=> Only one complex type allowed as argument to a controller action that's binding source is 'Body'. But ImportCustomerMaterial (api/services/app/DescCustomerMaterial/ImportCustomerMaterial) contains more than one!
+   at Abp.Web.Api.ProxyScripting.Generators.ProxyScriptingHelper.GenerateBody(ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\ProxyScriptingHelper.cs:line 51
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddAjaxCallParameters(StringBuilder script, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 102
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddActionScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 76
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddControllerScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 58
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddModuleScript(StringBuilder script, ModuleApiDescriptionModel module) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 40
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.CreateScript(ApplicationApiDescriptionModel model) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 24
+   at Abp.Web.Api.ProxyScripting.ApiProxyScriptManager.CreateScript(ApiProxyGenerationOptions options) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\ApiProxyScriptManager.cs:line 59
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll(ApiProxyGenerationModel model) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Proxying\AbpServiceProxiesController.cs:line 27
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+#################### 06/18/2019 19:28:53.4803577 ###############
+Message:    An unhandled exception has occurred while executing the request.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636964829327527974
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+Error:      AbpException=> Only one complex type allowed as argument to a controller action that's binding source is 'Body'. But ImportCustomerMaterial (api/services/app/DescCustomerMaterial/ImportCustomerMaterial) contains more than one!
+   at Abp.Web.Api.ProxyScripting.Generators.ProxyScriptingHelper.GenerateBody(ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\ProxyScriptingHelper.cs:line 51
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddAjaxCallParameters(StringBuilder script, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 102
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddActionScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 76
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddControllerScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 58
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddModuleScript(StringBuilder script, ModuleApiDescriptionModel module) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 40
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.CreateScript(ApplicationApiDescriptionModel model) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 24
+   at Abp.Web.Api.ProxyScripting.ApiProxyScriptManager.CreateScript(ApiProxyGenerationOptions options) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\ApiProxyScriptManager.cs:line 59
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll(ApiProxyGenerationModel model) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Proxying\AbpServiceProxiesController.cs:line 27
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+#################### 06/18/2019 19:30:05.2723354 ###############
+Message:    An unhandled exception has occurred while executing the request.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636964830046097695
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+Error:      AbpException=> Only one complex type allowed as argument to a controller action that's binding source is 'Body'. But ImportCustomerMaterial (api/services/app/DescCustomerMaterial/ImportCustomerMaterial) contains more than one!
+   at Abp.Web.Api.ProxyScripting.Generators.ProxyScriptingHelper.GenerateBody(ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\ProxyScriptingHelper.cs:line 51
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddAjaxCallParameters(StringBuilder script, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 102
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddActionScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 76
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddControllerScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 58
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddModuleScript(StringBuilder script, ModuleApiDescriptionModel module) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 40
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.CreateScript(ApplicationApiDescriptionModel model) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 24
+   at Abp.Web.Api.ProxyScripting.ApiProxyScriptManager.CreateScript(ApiProxyGenerationOptions options) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\ApiProxyScriptManager.cs:line 59
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll(ApiProxyGenerationModel model) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Proxying\AbpServiceProxiesController.cs:line 27
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+#################### 06/18/2019 19:59:34.4924414 ###############
+Message:    An unhandled exception has occurred while executing the request.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636964847738670346
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+Error:      AbpException=> Only one complex type allowed as argument to a controller action that's binding source is 'Body'. But ImportCustomerMaterial (api/services/app/DescCustomerMaterial/ImportCustomerMaterial) contains more than one!
+   at Abp.Web.Api.ProxyScripting.Generators.ProxyScriptingHelper.GenerateBody(ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\ProxyScriptingHelper.cs:line 51
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddAjaxCallParameters(StringBuilder script, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 102
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddActionScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 76
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddControllerScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 58
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddModuleScript(StringBuilder script, ModuleApiDescriptionModel module) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 40
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.CreateScript(ApplicationApiDescriptionModel model) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 24
+   at Abp.Web.Api.ProxyScripting.ApiProxyScriptManager.CreateScript(ApiProxyGenerationOptions options) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\ApiProxyScriptManager.cs:line 59
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll(ApiProxyGenerationModel model) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Proxying\AbpServiceProxiesController.cs:line 27
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+#################### 06/18/2019 20:05:08.9597946 ###############
+Message:    An unhandled exception has occurred while executing the request.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636964851084129648
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+Error:      AbpException=> Only one complex type allowed as argument to a controller action that's binding source is 'Body'. But ImportCustomerMaterial (api/services/app/DescCustomerMaterial/ImportCustomerMaterial) contains more than one!
+   at Abp.Web.Api.ProxyScripting.Generators.ProxyScriptingHelper.GenerateBody(ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\ProxyScriptingHelper.cs:line 51
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddAjaxCallParameters(StringBuilder script, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 102
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddActionScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 76
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddControllerScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 58
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddModuleScript(StringBuilder script, ModuleApiDescriptionModel module) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 40
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.CreateScript(ApplicationApiDescriptionModel model) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 24
+   at Abp.Web.Api.ProxyScripting.ApiProxyScriptManager.CreateScript(ApiProxyGenerationOptions options) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\ApiProxyScriptManager.cs:line 59
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll(ApiProxyGenerationModel model) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Proxying\AbpServiceProxiesController.cs:line 27
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+#################### 06/18/2019 20:08:13.0525916 ###############
+Message:    An unhandled exception has occurred while executing the request.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636964852923976743
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+Error:      AbpException=> Only one complex type allowed as argument to a controller action that's binding source is 'Body'. But ImportCustomerMaterial (api/services/app/DescCustomerMaterial/ImportCustomerMaterial) contains more than one!
+   at Abp.Web.Api.ProxyScripting.Generators.ProxyScriptingHelper.GenerateBody(ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\ProxyScriptingHelper.cs:line 51
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddAjaxCallParameters(StringBuilder script, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 102
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddActionScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 76
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddControllerScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 58
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddModuleScript(StringBuilder script, ModuleApiDescriptionModel module) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 40
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.CreateScript(ApplicationApiDescriptionModel model) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 24
+   at Abp.Web.Api.ProxyScripting.ApiProxyScriptManager.CreateScript(ApiProxyGenerationOptions options) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\ApiProxyScriptManager.cs:line 59
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll(ApiProxyGenerationModel model) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Proxying\AbpServiceProxiesController.cs:line 27
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+#################### 06/18/2019 20:46:31.9275246 ###############
+Message:    An unhandled exception has occurred while executing the request.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636964875912895783
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+Error:      AbpException=> Only one complex type allowed as argument to a controller action that's binding source is 'Body'. But ImportCustomerMaterial (api/services/app/DescCustomerMaterial/ImportCustomerMaterial) contains more than one!
+   at Abp.Web.Api.ProxyScripting.Generators.ProxyScriptingHelper.GenerateBody(ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\ProxyScriptingHelper.cs:line 51
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddAjaxCallParameters(StringBuilder script, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 102
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddActionScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 76
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddControllerScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 58
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddModuleScript(StringBuilder script, ModuleApiDescriptionModel module) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 40
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.CreateScript(ApplicationApiDescriptionModel model) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 24
+   at Abp.Web.Api.ProxyScripting.ApiProxyScriptManager.CreateScript(ApiProxyGenerationOptions options) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\ApiProxyScriptManager.cs:line 59
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll(ApiProxyGenerationModel model) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Proxying\AbpServiceProxiesController.cs:line 27
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+#################### 06/18/2019 20:57:15.1744691 ###############
+Message:    An unhandled exception has occurred while executing the request.
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636964882345366160
+Method:     GET
+From IP:    127.0.0.1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+Error:      AbpException=> Only one complex type allowed as argument to a controller action that's binding source is 'Body'. But ImportCustomerMaterial (api/services/app/DescCustomerMaterial/ImportCustomerMaterial) contains more than one!
+   at Abp.Web.Api.ProxyScripting.Generators.ProxyScriptingHelper.GenerateBody(ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\ProxyScriptingHelper.cs:line 51
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddAjaxCallParameters(StringBuilder script, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 102
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddActionScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller, ActionApiDescriptionModel action) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 76
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddControllerScript(StringBuilder script, ModuleApiDescriptionModel module, ControllerApiDescriptionModel controller) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 58
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.AddModuleScript(StringBuilder script, ModuleApiDescriptionModel module) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 40
+   at Abp.Web.Api.ProxyScripting.Generators.JQuery.JQueryProxyScriptGenerator.CreateScript(ApplicationApiDescriptionModel model) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\Generators\JQuery\JQueryProxyScriptGenerator.cs:line 24
+   at Abp.Web.Api.ProxyScripting.ApiProxyScriptManager.CreateScript(ApiProxyGenerationOptions options) in D:\Github\aspnetboilerplate\src\Abp.Web.Common\Web\Api\ProxyScripting\ApiProxyScriptManager.cs:line 59
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll(ApiProxyGenerationModel model) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Proxying\AbpServiceProxiesController.cs:line 27
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

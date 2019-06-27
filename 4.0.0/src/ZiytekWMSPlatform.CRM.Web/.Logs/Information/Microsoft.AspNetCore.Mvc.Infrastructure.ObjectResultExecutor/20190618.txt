@@ -1,0 +1,55 @@
+#################### 06/18/2019 19:19:26.8315939 ###############
+Message:    Executing ObjectResult, writing value of type 'Nezada.Common.Model.NezadaJsonDto'.
+Path:       http://localhost:5007/PptCusomter/GetPptCusomter?id=3cd97ec32f154ed48b783d61e0f8ee0e
+Method:     GET
+From IP:    ::1
+UserAgent:  PostmanRuntime/7.15.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/18/2019 20:00:23.3535342 ###############
+Message:    Executing ObjectResult, writing value of type 'Nezada.Common.Model.NezadaJsonDto'.
+Path:       http://localhost:5007/PptCusomter/GetPptCusomter?id=3cd97ec32f154ed48b783d61e0f8ee0e
+Method:     GET
+From IP:    ::1
+UserAgent:  PostmanRuntime/7.15.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/18/2019 20:08:39.4719110 ###############
+Message:    Executing ObjectResult, writing value of type 'Nezada.Common.Model.NezadaJsonDto'.
+Path:       http://localhost:5007/PptCusomter/GetPptCusomter?id=3cd97ec32f154ed48b783d61e0f8ee0e
+Method:     GET
+From IP:    ::1
+UserAgent:  PostmanRuntime/7.15.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/18/2019 20:48:46.3702358 ###############
+Message:    Executing ObjectResult, writing value of type 'Nezada.Common.Model.NezadaJsonDto'.
+Path:       http://localhost:5007/PptCusomter/GetPptCusomter?id=3cd97ec32f154ed48b783d61e0f8ee0e
+Method:     GET
+From IP:    ::1
+UserAgent:  PostmanRuntime/7.15.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/18/2019 20:57:25.3353590 ###############
+Message:    Executing ObjectResult, writing value of type 'Nezada.Common.Model.NezadaJsonDto'.
+Path:       http://localhost:5007/PptCustomer/GetPptCustomer?id=3cd97ec32f154ed48b783d61e0f8ee0e
+Method:     GET
+From IP:    ::1
+UserAgent:  PostmanRuntime/7.15.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)

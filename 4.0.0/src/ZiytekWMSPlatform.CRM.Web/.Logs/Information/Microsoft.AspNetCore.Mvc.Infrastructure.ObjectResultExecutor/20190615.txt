@@ -1,0 +1,12 @@
+#################### 06/15/2019 11:41:03.4935803 ###############
+Message:    Executing ObjectResult, writing value of type 'Nezada.Common.Model.NezadaJsonDto'.
+Path:       http://localhost:5007/PptCusomter/GetAllPptCusomter?customertype=1
+Method:     GET
+From IP:    ::1
+UserAgent:  PostmanRuntime/7.15.0
+Query:      customertype=1
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)

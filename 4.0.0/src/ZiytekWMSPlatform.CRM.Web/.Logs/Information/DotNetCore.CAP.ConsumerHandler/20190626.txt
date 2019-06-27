@@ -1,0 +1,14 @@
+#################### 06/26/2019 14:30:59.8970278 ###############
+Message:    RabbitMQ consumer registered. --> amq.ctag-XPOG7IpNpC0bfXNOXV9j4Q
+StackTrace: at DotNetCore.CAP.ConsumerHandler.WriteLog(Object sender, LogMessageEventArgs logmsg)
+   at RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher.<>c__DisplayClass10_0.<HandleBasicConsumeOk>b__0()
+   at RabbitMQ.Client.ConsumerWorkService.WorkPool.Loop()
+   at System.Threading.Thread.ThreadMain_ThreadStart()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/26/2019 14:34:09.4920116 ###############
+Message:    RabbitMQ consumer registered. --> amq.ctag-2LV4sOSY5BeHg5lNWZlcOA
+StackTrace: at DotNetCore.CAP.ConsumerHandler.WriteLog(Object sender, LogMessageEventArgs logmsg)
+   at RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher.<>c__DisplayClass10_0.<HandleBasicConsumeOk>b__0()
+   at RabbitMQ.Client.ConsumerWorkService.WorkPool.Loop()
+   at System.Threading.Thread.ThreadMain_ThreadStart()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)

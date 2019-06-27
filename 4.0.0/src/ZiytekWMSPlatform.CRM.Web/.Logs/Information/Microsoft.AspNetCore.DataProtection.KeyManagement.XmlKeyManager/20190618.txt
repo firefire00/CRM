@@ -1,0 +1,84 @@
+#################### 06/18/2019 13:58:49.7704648 ###############
+Message:    User profile is available. Using 'C:\Users\Dragon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+#################### 06/18/2019 19:18:36.9779769 ###############
+Message:    User profile is available. Using 'C:\Users\Dragon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+#################### 06/18/2019 19:22:09.8493067 ###############
+Message:    User profile is available. Using 'C:\Users\Dragon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+#################### 06/18/2019 19:26:01.2586830 ###############
+Message:    User profile is available. Using 'C:\Users\Dragon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+#################### 06/18/2019 19:28:47.0795741 ###############
+Message:    User profile is available. Using 'C:\Users\Dragon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+#################### 06/18/2019 19:29:58.7354393 ###############
+Message:    User profile is available. Using 'C:\Users\Dragon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+#################### 06/18/2019 19:59:28.2157874 ###############
+Message:    User profile is available. Using 'C:\Users\Dragon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+#################### 06/18/2019 20:05:03.5381333 ###############
+Message:    User profile is available. Using 'C:\Users\Dragon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+#################### 06/18/2019 20:07:05.4574138 ###############
+Message:    User profile is available. Using 'C:\Users\Dragon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+#################### 06/18/2019 20:08:07.5923290 ###############
+Message:    User profile is available. Using 'C:\Users\Dragon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+#################### 06/18/2019 20:46:26.1511682 ###############
+Message:    User profile is available. Using 'C:\Users\Dragon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+#################### 06/18/2019 20:57:09.9138290 ###############
+Message:    User profile is available. Using 'C:\Users\Dragon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+StackTrace: at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetFallbackKeyRepositoryEncryptorPair()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory, IDefaultKeyStorageDirectories keyStorageDirectories)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager..ctor(IOptions`1 keyManagementOptions, IActivator activator, ILoggerFactory loggerFactory)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)

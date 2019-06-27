@@ -1,0 +1,220 @@
+#################### 06/12/2019 16:28:07.4081998 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636959536868772915
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 16:28:07.4916101 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636959536868762776
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 16:35:55.1635551 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636959541547588284
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 16:35:55.2178417 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636959541547571828
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 16:50:10.3850131 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636959550100437319
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 16:50:10.4437678 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636959550100427108
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 16:52:27.8021877 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636959551474436501
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 16:52:27.8761035 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636959551474426389
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 16:58:14.3588140 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636959554939759295
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 16:58:14.4035732 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636959554939748841
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 17:00:13.4306922 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636959556130815505
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 17:00:13.5376428 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636959556130804856
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 17:06:56.9693534 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636959560166076962
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 17:06:57.0141440 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636959560166065699
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06.12.2019 17:07:58.1210454 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636959560780364558
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06.12.2019 17:07:58.1339983 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636959560780364737
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 17:08:00.1027135 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636959560800280018
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 17:08:00.1236125 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636959560800280178
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 17:10:31.1693833 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636959562306499312
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+#################### 06/12/2019 17:10:31.1693833 ###############
+Message:    Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636959562306516928
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.<ExecuteAsync>d__4.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ContentResultExecutor.ExecuteAsync(ActionContext context, ContentResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__20.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)

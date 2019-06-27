@@ -1,0 +1,462 @@
+#################### 06/18/2019 13:58:55.7373646 ###############
+Message:    Sending file. Request path: '/lib/sweetalert/dist/sweetalert.css'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\sweetalert\dist\sweetalert.css'
+Path:       http://localhost:5007/lib/sweetalert/dist/sweetalert.css
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:55.7437612 ###############
+Message:    Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+Path:       http://localhost:5007/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:55.7467013 ###############
+Message:    Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\font-awesome\css\font-awesome.css'
+Path:       http://localhost:5007/lib/font-awesome/css/font-awesome.css
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:55.7637403 ###############
+Message:    Sending file. Request path: '/css/main.css'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\css\main.css'
+Path:       http://localhost:5007/css/main.css
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:55.8515794 ###############
+Message:    Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\toastr\toastr.css'
+Path:       http://localhost:5007/lib/toastr/toastr.css
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:55.8587088 ###############
+Message:    Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:55.8606832 ###############
+Message:    Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:55.8924481 ###############
+Message:    Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:55.9032492 ###############
+Message:    Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:55.9051302 ###############
+Message:    Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:55.9130015 ###############
+Message:    Sending file. Request path: '/js/views/home/index.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\js\views\home\index.js'
+Path:       http://localhost:5007/js/views/home/index.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:55.9622136 ###############
+Message:    Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\json2\json2.js'
+Path:       http://localhost:5007/lib/json2/json2.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:55.9758723 ###############
+Message:    Sending file. Request path: '/lib/bootstrap-paper/bootstrap.css'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\bootstrap-paper\bootstrap.css'
+Path:       http://localhost:5007/lib/bootstrap-paper/bootstrap.css
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:56.0233673 ###############
+Message:    Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\blockUI\jquery.blockUI.js'
+Path:       http://localhost:5007/lib/blockUI/jquery.blockUI.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:56.0253145 ###############
+Message:    Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+Path:       http://localhost:5007/lib/bootstrap/dist/js/bootstrap.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:56.0548886 ###############
+Message:    Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+Path:       http://localhost:5007/lib/jquery-validation/dist/jquery.validate.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:56.0548878 ###############
+Message:    Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\toastr\toastr.js'
+Path:       http://localhost:5007/lib/toastr/toastr.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:56.0951988 ###############
+Message:    Sending file. Request path: '/lib/sweetalert/dist/sweetalert-dev.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js'
+Path:       http://localhost:5007/lib/sweetalert/dist/sweetalert-dev.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:56.1172843 ###############
+Message:    Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\jquery\dist\jquery.js'
+Path:       http://localhost:5007/lib/jquery/dist/jquery.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:56.1815610 ###############
+Message:    Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\spin.js\jquery.spin.js'
+Path:       http://localhost:5007/lib/spin.js/jquery.spin.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:56.1927553 ###############
+Message:    Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/abp.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:56.1947847 ###############
+Message:    Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\moment\min\moment-with-locales.js'
+Path:       http://localhost:5007/lib/moment/min/moment-with-locales.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:56.2082354 ###############
+Message:    Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\spin.js\spin.js'
+Path:       http://localhost:5007/lib/spin.js/spin.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 13:58:56.2135977 ###############
+Message:    Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+Path:       http://localhost:5007/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 19:18:44.7239542 ###############
+Message:    Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\toastr\toastr.css'
+Path:       http://localhost:5007/lib/toastr/toastr.css
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/18/2019 19:18:44.7239542 ###############
+Message:    Sending file. Request path: '/lib/sweetalert/dist/sweetalert.css'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\sweetalert\dist\sweetalert.css'
+Path:       http://localhost:5007/lib/sweetalert/dist/sweetalert.css
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/18/2019 19:18:44.7302964 ###############
+Message:    Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+Path:       http://localhost:5007/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 19:18:44.7306879 ###############
+Message:    Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\font-awesome\css\font-awesome.css'
+Path:       http://localhost:5007/lib/font-awesome/css/font-awesome.css
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 19:18:44.7825267 ###############
+Message:    Sending file. Request path: '/css/main.css'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\css\main.css'
+Path:       http://localhost:5007/css/main.css
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/18/2019 19:18:44.8172739 ###############
+Message:    Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\blockUI\jquery.blockUI.js'
+Path:       http://localhost:5007/lib/blockUI/jquery.blockUI.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/18/2019 19:18:44.8218170 ###############
+Message:    Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 19:18:44.8323715 ###############
+Message:    Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/18/2019 19:18:44.8343392 ###############
+Message:    Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+Path:       http://localhost:5007/lib/jquery-validation/dist/jquery.validate.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 19:18:44.8408725 ###############
+Message:    Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 19:18:44.8409184 ###############
+Message:    Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/18/2019 19:18:44.8410804 ###############
+Message:    Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 19:18:44.8472121 ###############
+Message:    Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+Path:       http://localhost:5007/lib/bootstrap/dist/js/bootstrap.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 19:18:44.8574209 ###############
+Message:    Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\jquery\dist\jquery.js'
+Path:       http://localhost:5007/lib/jquery/dist/jquery.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 19:18:44.8758378 ###############
+Message:    Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\json2\json2.js'
+Path:       http://localhost:5007/lib/json2/json2.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 19:18:44.8791940 ###############
+Message:    Sending file. Request path: '/js/views/home/index.js'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\js\views\home\index.js'
+Path:       http://localhost:5007/js/views/home/index.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 19:18:44.8816458 ###############
+Message:    Sending file. Request path: '/lib/bootstrap-paper/bootstrap.css'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\bootstrap-paper\bootstrap.css'
+Path:       http://localhost:5007/lib/bootstrap-paper/bootstrap.css
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/18/2019 19:18:44.9851657 ###############
+Message:    Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'E:\Visual_Program\ZiytekWMSPlatform\ZiytekWMSPlatform.CRM\4.0.0\src\ZiytekWMSPlatform.CRM.Web\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+Path:       http://localhost:5007/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.StaticFiles.LoggerExtensions.LogFileServed(ILogger logger, String virtualPath, String physicalPath)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.<Invoke>d__7.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()

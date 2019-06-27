@@ -1,0 +1,7 @@
+#################### 06/11/2019 20:38:35.4790268 ###############
+Message:    Starting the processing server.
+StackTrace: at DotNetCore.CAP.LoggerExtensions.ServerStarting(ILogger logger)
+   at DotNetCore.CAP.Processor.CapProcessingServer.Start()
+   at DotNetCore.CAP.DefaultBootstrapper.BootstrapCoreAsync()
+   at DotNetCore.CAP.DefaultBootstrapper.<BootstrapAsync>d__8.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)

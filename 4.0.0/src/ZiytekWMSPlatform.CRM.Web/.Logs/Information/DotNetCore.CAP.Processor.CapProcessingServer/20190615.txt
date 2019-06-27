@@ -1,0 +1,28 @@
+#################### 06/15/2019 11:09:13.9760694 ###############
+Message:    Starting the processing server.
+StackTrace: at DotNetCore.CAP.LoggerExtensions.ServerStarting(ILogger logger)
+   at DotNetCore.CAP.Processor.CapProcessingServer.Start()
+   at DotNetCore.CAP.DefaultBootstrapper.BootstrapCoreAsync()
+   at DotNetCore.CAP.DefaultBootstrapper.<BootstrapAsync>d__8.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/15/2019 11:15:57.0514810 ###############
+Message:    Starting the processing server.
+StackTrace: at DotNetCore.CAP.LoggerExtensions.ServerStarting(ILogger logger)
+   at DotNetCore.CAP.Processor.CapProcessingServer.Start()
+   at DotNetCore.CAP.DefaultBootstrapper.BootstrapCoreAsync()
+   at DotNetCore.CAP.DefaultBootstrapper.<BootstrapAsync>d__8.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/15/2019 11:39:57.4854780 ###############
+Message:    Starting the processing server.
+StackTrace: at DotNetCore.CAP.LoggerExtensions.ServerStarting(ILogger logger)
+   at DotNetCore.CAP.Processor.CapProcessingServer.Start()
+   at DotNetCore.CAP.DefaultBootstrapper.BootstrapCoreAsync()
+   at DotNetCore.CAP.DefaultBootstrapper.<BootstrapAsync>d__8.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+#################### 06/15/2019 13:42:40.3364988 ###############
+Message:    Starting the processing server.
+StackTrace: at DotNetCore.CAP.LoggerExtensions.ServerStarting(ILogger logger)
+   at DotNetCore.CAP.Processor.CapProcessingServer.Start()
+   at DotNetCore.CAP.DefaultBootstrapper.BootstrapCoreAsync()
+   at DotNetCore.CAP.DefaultBootstrapper.<BootstrapAsync>d__8.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)

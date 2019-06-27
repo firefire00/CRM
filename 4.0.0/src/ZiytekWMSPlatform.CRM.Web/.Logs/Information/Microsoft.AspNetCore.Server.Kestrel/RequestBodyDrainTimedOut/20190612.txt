@@ -1,0 +1,66 @@
+#################### 06/12/2019 16:28:07.2861865 ###############
+Message:    Connection id "0HLNF1VHN09TJ", Request id "0HLNF1VHN09TJ:00000001": the application aborted the connection.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.KestrelTrace.ApplicationAbortedConnection(String connectionId, String traceIdentifier)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ApplicationAbort()
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.<SendAsync>d__49.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+#################### 06/12/2019 16:28:07.2921874 ###############
+Message:    Connection id "0HLNF1VHN09T6", Request id "0HLNF1VHN09T6:00000001": the application aborted the connection.
+Path:       http://localhost:5007/lib/jquery/dist/jquery.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.KestrelTrace.ApplicationAbortedConnection(String connectionId, String traceIdentifier)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ApplicationAbort()
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.<SendAsync>d__49.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 06/12/2019 16:28:07.3078455 ###############
+Message:    Connection id "0HLNF1VHN09T7", Request id "0HLNF1VHN09T7:00000001": the application aborted the connection.
+Path:       http://localhost:5007/lib/bootstrap/dist/js/bootstrap.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.KestrelTrace.ApplicationAbortedConnection(String connectionId, String traceIdentifier)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ApplicationAbort()
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.<SendAsync>d__49.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 06/12/2019 16:28:07.3139212 ###############
+Message:    Connection id "0HLNF1VHN09TL", Request id "0HLNF1VHN09TL:00000001": the application aborted the connection.
+Path:       http://localhost:5007/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.KestrelTrace.ApplicationAbortedConnection(String connectionId, String traceIdentifier)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ApplicationAbort()
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.<SendAsync>d__49.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+#################### 06/12/2019 16:28:07.3143877 ###############
+Message:    Connection id "0HLNF1VHN09T2", Request id "0HLNF1VHN09T2:00000002": the application aborted the connection.
+Path:       http://localhost:5007/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.KestrelTrace.ApplicationAbortedConnection(String connectionId, String traceIdentifier)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ApplicationAbort()
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.<SendAsync>d__49.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+#################### 06/12/2019 16:28:07.3238092 ###############
+Message:    Connection id "0HLNF1VHN09TB", Request id "0HLNF1VHN09TB:00000001": the application aborted the connection.
+Path:       http://localhost:5007/lib/sweetalert/dist/sweetalert-dev.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.KestrelTrace.ApplicationAbortedConnection(String connectionId, String traceIdentifier)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ApplicationAbort()
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.<SendAsync>d__49.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()

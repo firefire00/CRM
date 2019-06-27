@@ -1,0 +1,402 @@
+#################### 06/24/2019 10:06:37.3139354 ###############
+Message:    Route matched with {action = "Index", controller = "Home", area = ""}. Executing action ZiytekWMSPlatform.CRM.Web.Controllers.HomeController.Index (ZiytekWMSPlatform.CRM.Web)
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:06:37.4121855 ###############
+Message:    Executing action method ZiytekWMSPlatform.CRM.Web.Controllers.HomeController.Index (ZiytekWMSPlatform.CRM.Web) - Validation state: Valid
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:06:37.4721192 ###############
+Message:    Executed action method ZiytekWMSPlatform.CRM.Web.Controllers.HomeController.Index (ZiytekWMSPlatform.CRM.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 55.7619ms.
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted(ILogger logger, ControllerContext context, IActionResult result, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:06:38.3077886 ###############
+Message:    Executed action ZiytekWMSPlatform.CRM.Web.Controllers.HomeController.Index (ZiytekWMSPlatform.CRM.Web) in 988.3613ms
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/24/2019 10:06:38.9210376 ###############
+Message:    Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636969675981551400
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:06:38.9289162 ###############
+Message:    Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636969675981590645
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:06:38.9837151 ###############
+Message:    Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636969675981590645
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:06:39.0183425 ###############
+Message:    Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636969675981551400
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:06:39.0716510 ###############
+Message:    Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 86.1333ms.
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636969675981590645
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted(ILogger logger, ControllerContext context, IActionResult result, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:06:39.0857428 ###############
+Message:    Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 154.1359ms
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636969675981590645
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:06:39.2553724 ###############
+Message:    Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 327.9967ms
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636969675981551400
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:28:30.1934278 ###############
+Message:    Route matched with {action = "GetAllCustomerMaterial", controller = "DescCustomerMaterial", area = ""}. Executing action ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web)
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=58e72855e2bb4db38a936190f7548c6f&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:28:30.7812342 ###############
+Message:    Executing action method ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web) with arguments (ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto) - Validation state: Valid
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=58e72855e2bb4db38a936190f7548c6f&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:29:43.8299557 ###############
+Message:    Executed action method ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 73046.4688ms.
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=58e72855e2bb4db38a936190f7548c6f&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted(ILogger logger, ControllerContext context, IActionResult result, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/24/2019 10:29:43.9302299 ###############
+Message:    Executed action ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web) in 73735.0053ms
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=58e72855e2bb4db38a936190f7548c6f&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/24/2019 10:38:38.2482455 ###############
+Message:    Route matched with {action = "Index", controller = "Home", area = ""}. Executing action ZiytekWMSPlatform.CRM.Web.Controllers.HomeController.Index (ZiytekWMSPlatform.CRM.Web)
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:38:38.3416383 ###############
+Message:    Executing action method ZiytekWMSPlatform.CRM.Web.Controllers.HomeController.Index (ZiytekWMSPlatform.CRM.Web) - Validation state: Valid
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:38:38.3913923 ###############
+Message:    Executed action method ZiytekWMSPlatform.CRM.Web.Controllers.HomeController.Index (ZiytekWMSPlatform.CRM.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 45.1752ms.
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted(ILogger logger, ControllerContext context, IActionResult result, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:38:39.8369574 ###############
+Message:    Executed action ZiytekWMSPlatform.CRM.Web.Controllers.HomeController.Index (ZiytekWMSPlatform.CRM.Web) in 1576.1039ms
+Path:       http://localhost:5007/
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/24/2019 10:38:39.8646035 ###############
+Message:    Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636969695196583029
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:38:39.8695954 ###############
+Message:    Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636969695196568444
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:38:39.9202938 ###############
+Message:    Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636969695196583029
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:38:39.9619390 ###############
+Message:    Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636969695196568444
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:38:40.0128090 ###############
+Message:    Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 89.6195ms.
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636969695196583029
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted(ILogger logger, ControllerContext context, IActionResult result, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:38:40.0359751 ###############
+Message:    Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 169.7008ms
+Path:       http://localhost:5007/AbpScripts/GetScripts?v=636969695196583029
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:38:40.1306887 ###############
+Message:    Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 260.0932ms
+Path:       http://localhost:5007/AbpServiceProxies/GetAll?v=636969695196568444
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:39:43.7837983 ###############
+Message:    Route matched with {action = "GetAllCustomerMaterial", controller = "DescCustomerMaterial", area = ""}. Executing action ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web)
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=58e72855e2bb4db38a936190f7548c6f&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:39:44.3398437 ###############
+Message:    Executing action method ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web) with arguments (ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto) - Validation state: Valid
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=58e72855e2bb4db38a936190f7548c6f&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:39:51.1702581 ###############
+Message:    Executed action method ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6827.8073ms.
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=58e72855e2bb4db38a936190f7548c6f&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted(ILogger logger, ControllerContext context, IActionResult result, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/24/2019 10:39:51.2662742 ###############
+Message:    Executed action ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web) in 7476.1398ms
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=58e72855e2bb4db38a936190f7548c6f&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/24/2019 10:40:07.8596672 ###############
+Message:    Route matched with {action = "GetAllCustomerMaterial", controller = "DescCustomerMaterial", area = ""}. Executing action ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web)
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=7371d63c223a4586aeeb13cc3bf73785&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:40:07.8752251 ###############
+Message:    Executing action method ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web) with arguments (ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto) - Validation state: Valid
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=7371d63c223a4586aeeb13cc3bf73785&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:40:07.9458577 ###############
+Message:    Executed action method ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 43.7089ms.
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=7371d63c223a4586aeeb13cc3bf73785&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted(ILogger logger, ControllerContext context, IActionResult result, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/24/2019 10:40:07.9530350 ###############
+Message:    Executed action ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web) in 83.0265ms
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=7371d63c223a4586aeeb13cc3bf73785&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/24/2019 10:40:17.9361555 ###############
+Message:    Route matched with {action = "GetAllCustomerMaterial", controller = "DescCustomerMaterial", area = ""}. Executing action ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web)
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=7371d63c223a4586aeeb13cc3bf73785&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutingAction(ILogger logger, ActionDescriptor action)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+#################### 06/24/2019 10:40:17.9389065 ###############
+Message:    Executing action method ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web) with arguments (ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto) - Validation state: Valid
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=7371d63c223a4586aeeb13cc3bf73785&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuting(ILogger logger, ControllerContext context, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+#################### 06/24/2019 10:40:50.5427419 ###############
+Message:    Executed action method ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 32601.2632ms.
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=7371d63c223a4586aeeb13cc3bf73785&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ActionMethodExecuted(ILogger logger, ControllerContext context, IActionResult result, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+#################### 06/24/2019 10:40:50.5740215 ###############
+Message:    Executed action ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial (ZiytekWMSPlatform.CRM.Web) in 32635.6372ms
+Path:       http://localhost/DescCustomerMaterial/GetAllCustomerMaterial?customerid=7371d63c223a4586aeeb13cc3bf73785&warehouseid=b767abb629914158832cc99b3e8e93be&tenantid=7b5cffd8b91f480198ef1ae404a115de&pageNo=0&pageSize=0
+Method:     GET
+From IP:    127.0.0.1
+StackTrace: at Microsoft.AspNetCore.Mvc.Internal.MvcCoreLoggerExtensions.ExecutedAction(ILogger logger, ActionDescriptor action, TimeSpan timeSpan)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__16.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)

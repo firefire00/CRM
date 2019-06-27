@@ -1,0 +1,473 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZiytekWMSPlatform.CRM.Web</name>
+    </assembly>
+    <members>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Controllers.CRMControllerBase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.CRMControllerBase.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController">
+            <summary>
+            客户-物资接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.#ctor(ZiytekWMSPlatform.CRM.AppServices.IDescCustomerMaterialAppService)">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.AddDescCustomerMaterial(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto)">
+            <summary>
+            新增客户-物资
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.UpdateDescCustomerMaterial(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppUpdateInputDto)">
+            <summary>
+            修改客户-物资
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.DeleteDescCustomerMaterial(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppDeleteInputDto)">
+            <summary>
+            删除客户-物资
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetDescCustomerMaterial(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetInputDto)">
+            <summary>
+            查询客户-物资
+            </summary>
+            <param name="input">条件参数</param>
+            <returns>
+            <see cref="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppOutputDto" langword="true">客户-物资AppOutputDto</see>
+            </returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllDescCustomerMaterial(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto)">
+            <summary>
+            查询客户-物资列表
+            </summary>
+            <param name="input">条件参数</param>
+            <returns>
+            <see cref="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppOutputDto" langword="true">客户-物资列表</see>
+            </returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.GetAllCustomerMaterial(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto)">
+            <summary>
+            查询客户-物资选项列表（后端使用）
+            </summary>
+            <param name="input">条件参数</param>
+            <returns>
+            <see cref="T:Nezada.Common.Model.SelectedItem" langword="true">客户-物资列表</see>
+            </returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.ImportCustomerMaterial(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto)">
+            <summary>
+            导入客户物资关系
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.ExportFailCustomerMaterial(System.Collections.Generic.List{ZiytekWMSPlatform.CRM.AppServices.ExprotMaterialInfo})">
+            <summary>
+            导出错误的客户物资
+            </summary>
+            <param name="data">错误数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.DescCustomerMaterialController.SaveCustomerMaterial(System.Collections.Generic.List{ZiytekWMSPlatform.CRM.AppServices.SaveExcel_AppInputDto})">
+            <summary>
+            导入保存客户-物资
+            </summary>
+            <param name="data">成功数据</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Controllers.ErrorController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.ErrorController.#ctor(Abp.Web.Models.IErrorInfoBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="errorInfoBuilder"></param>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.ErrorController.Index">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.HomeController.#ctor(DotNetCore.CAP.ICapPublisher)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.HomeController.Index">
+            <summary>
+            为了防止RabbitMQ启动失败，在此发送一条自消费队列
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.HomeController.About">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.HomeController.Done(System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Controllers.LayoutController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Controllers.PptConsigneeController">
+            <summary>
+            收货人接口
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.Web.Controllers.PptConsigneeController._appService">
+            <summary>
+            收货人域服务接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptConsigneeController.AddPptConsignee(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppCreateInputDto)">
+            <summary>
+            新增收货人
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptConsigneeController.UpdatePptConsignee(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppUpdateInputDto)">
+            <summary>
+            修改收货人
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptConsigneeController.DeletePptConsignee(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppDeleteInputDto)">
+            <summary>
+            删除收货人
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptConsigneeController.GetPptConsignee(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetInputDto)">
+            <summary>
+            获取收货人
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptConsigneeController.GetAllPptConsignee(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetAllInputDto)">
+            <summary>
+            查询所有收货人
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptConsigneeController.GetAllConsigneeList(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetTreeInputDto)">
+            <summary>
+            查询收货人（用于下拉）
+            </summary>
+            <param name="input"></param>
+            <returns>
+            <see cref="T:Nezada.Common.Model.SelectedItem" langword="true">客户列表</see>
+            </returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Controllers.PptCustomerController">
+            <summary>
+            客户接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptCustomerController.#ctor(ZiytekWMSPlatform.CRM.AppServices.IPptCustomerAppService)">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptCustomerController.AddPptCustomer(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppCreateInputDto)">
+            <summary>
+            新增客户
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptCustomerController.UpdatePptCustomer(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppUpdateInputDto)">
+            <summary>
+            修改客户
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptCustomerController.DeletePptCustomer(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppDeleteInputDto)">
+            <summary>
+            删除客户
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptCustomerController.GetPptCustomer(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetInputDto)">
+            <summary>
+            查询客户
+            </summary>
+            <param name="input">条件参数</param>
+            <returns>
+            <see cref="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto" langword="true">客户AppOutputDto</see>
+            </returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptCustomerController.GetAllPptCustomer(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto)">
+            <summary>
+            查询客户列表
+            </summary>
+            <param name="input">条件参数</param>
+            <returns>
+            <see cref="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto" langword="true">客户列表</see>
+            </returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptCustomerController.GetCustomerSelectedItemList(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetTreeInputDto)">
+            <summary>
+            查询客户下拉列表 （1供应商 2货主 3代销商 4经销商 5分包商）
+            </summary>
+            <param name="input">条件参数</param>
+            <returns>
+            <see cref="T:Nezada.Common.Model.SelectedItem" langword="true">客户列表</see>
+            </returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptCustomerController.GetSexList(System.String)">
+            <summary>
+            性别下拉
+            </summary>
+            <param name="sex">性别</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptCustomerController.GetAllDescCustomerWarehouse(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto)">
+            <summary>
+            查询客户合作仓库所属物资列表
+            </summary>
+            <param name="input">条件参数</param>
+            <returns>
+            <see cref="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto" langword="true">客户合作仓库所属物资列表</see>
+            </returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Controllers.PptCustomerController.GetCustomerTypeList(System.String)">
+            <summary>
+            客户类型下拉
+            </summary>
+            <param name="customerType">客户类型</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Startup.CRMNavigationProvider">
+            <summary>
+            This class defines menus for the application.
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Startup.CRMNavigationProvider.SetNavigation(Abp.Application.Navigation.INavigationProviderContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Startup.CRMWebModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Startup.CRMWebModule.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Startup.CRMWebModule.PreInitialize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Startup.CRMWebModule.Initialize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Startup.PageNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.Web.Startup.PageNames.Home">
+            <summary>
+            Home
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.Web.Startup.PageNames.About">
+            <summary>
+            About
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Startup.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Startup.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Startup.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.Web.Startup.Startup.ConfigurationRoot1">
+            <summary>
+            配置
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Startup.Startup.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Startup.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Startup.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="loggerFactory"></param>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Utils.UrlHelper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Utils.UrlHelper.IsRooted(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Views.CRMRazorPage`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TModel"></typeparam>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Views.CRMRazorPage`1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.LanguageSelection.LanguageSelectionViewComponent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.LanguageSelection.LanguageSelectionViewComponent.#ctor(Abp.Localization.ILanguageManager)">
+            <summary>
+            
+            </summary>
+            <param name="languageManager"></param>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.LanguageSelection.LanguageSelectionViewComponent.InvokeAsync">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.LanguageSelection.LanguageSelectionViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.LanguageSelection.LanguageSelectionViewModel.CurrentLanguage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.LanguageSelection.LanguageSelectionViewModel.Languages">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.LanguageSelection.LanguageSelectionViewModel.CurrentUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.TopMenu.TopMenuViewComponent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.TopMenu.TopMenuViewComponent.#ctor(Abp.Application.Navigation.IUserNavigationManager,Abp.Runtime.Session.IAbpSession)">
+            <summary>
+            
+            </summary>
+            <param name="userNavigationManager"></param>
+            <param name="abpSession"></param>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.TopMenu.TopMenuViewComponent.InvokeAsync(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="activeMenu"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.TopMenu.TopMenuViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.TopMenu.TopMenuViewModel.MainMenu">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.TopMenu.TopMenuViewModel.ActiveMenuItemName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.Web.Views.Shared.Components.TopMenu.TopMenuViewModel.CalculateMenuUrl(System.String,Abp.Application.Navigation.UserMenuItem)">
+            <summary>
+            
+            </summary>
+            <param name="applicationPath"></param>
+            <param name="menuItem"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

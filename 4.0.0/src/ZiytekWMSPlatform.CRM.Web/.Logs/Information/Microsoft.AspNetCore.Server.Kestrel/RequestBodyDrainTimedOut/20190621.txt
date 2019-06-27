@@ -1,0 +1,33 @@
+#################### 06/21/2019 16:04:56.1499951 ###############
+Message:    Connection id "0HLNM3SHTQC6E", Request id "0HLNM3SHTQC6E:00000001": the application aborted the connection.
+Path:       http://localhost:5007/js/views/home/index.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.KestrelTrace.ApplicationAbortedConnection(String connectionId, String traceIdentifier)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ApplicationAbort()
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.<SendAsync>d__49.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+#################### 06/21/2019 16:04:56.1894891 ###############
+Message:    Connection id "0HLNM3SHTQC6G", Request id "0HLNM3SHTQC6G:00000001": the application aborted the connection.
+Path:       http://localhost:5007/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.KestrelTrace.ApplicationAbortedConnection(String connectionId, String traceIdentifier)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ApplicationAbort()
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.<SendAsync>d__49.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+#################### 06/21/2019 16:04:56.2124273 ###############
+Message:    Connection id "0HLNM3SHTQC6I", Request id "0HLNM3SHTQC6I:00000001": the application aborted the connection.
+Path:       http://localhost:5007/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3
+Method:     GET
+From IP:    ::1
+UserAgent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+StackTrace: at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.KestrelTrace.ApplicationAbortedConnection(String connectionId, String traceIdentifier)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1Connection.ApplicationAbort()
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.<SendAsync>d__49.MoveNext()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()

@@ -1,0 +1,2441 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZiytekWMSPlatform.CRM.Application</name>
+    </assembly>
+    <members>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.DescCustomerConsigneeAppService">
+            <summary>
+            客户-收货人应用服务
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.DescCustomerConsigneeAppService._dataRepository">
+            <summary>
+            客户-收货人仓储接口
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.DescCustomerConsigneeAppService._manager">
+            <summary>
+            客户-收货人域服务接口
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.DescCustomerConsigneeAppService._consigneeAppService">
+            <summary>
+            收货人服务接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerConsigneeAppService.#ctor(Abp.Domain.Repositories.IRepository{ZiytekWMSPlatform.CRM.Entities.Desc_Customer_Consignee,System.String},ZiytekWMSPlatform.CRM.IRepositories.IDescCustomerConsigneeRepository,ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerConsigneeManager,ZiytekWMSPlatform.CRM.AppServices.IPptConsigneeAppService)">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerConsigneeAppService.CreateDescCustomerConsigneeAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppCreateInputDto)">
+            <summary>
+            新增客户-收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerConsigneeAppService.CreateDescCustomerConsigneeAsync(System.String,System.Collections.Generic.List{ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppCreateInputDto})">
+            <summary>
+            新增客户-收货人
+            </summary>
+            <param name="customerid">客户Id</param>
+            <param name="customerConsigneeList">客户-收货人关系列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerConsigneeAppService.Delete(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppDeleteInputDto)">
+            <summary>
+            删除客户-收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerConsigneeAppService.DeleteAsync(System.String)">
+            <summary>
+            删除客户关联的所有收货人
+            </summary>
+            <param name="customerid">客户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerConsigneeAppService.Update(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppUpdateInputDto)">
+            <summary>
+            修改客户-收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerConsigneeAppService.Get(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppGetInputDto)">
+            <summary>
+            获取客户-收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerConsigneeAppService.GetAllListAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppGetAllInputDto)">
+            <summary>
+            查询客户-收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerConsigneeAppService.GetCustomerConsigneeAsync(System.String,System.String)">
+            <summary>
+            查询客户关联的所有收货人
+            </summary>
+            <param name="customerid">客户Id</param>
+            <param name="warehouseid">仓库Id</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerConsigneeAppService">
+            <summary>
+            客户-收货人应用服务接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerConsigneeAppService.CreateDescCustomerConsigneeAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppCreateInputDto)">
+            <summary>
+            新增客户-收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerConsigneeAppService.GetAllListAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppGetAllInputDto)">
+            <summary>
+            查询客户-收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerConsigneeAppService.CreateDescCustomerConsigneeAsync(System.String,System.Collections.Generic.List{ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppCreateInputDto})">
+            <summary>
+            新增客户-收货人
+            </summary>
+            <param name="customerid">客户Id</param>
+            <param name="customerConsigneeList">客户-收货人关系列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerConsigneeAppService.GetCustomerConsigneeAsync(System.String,System.String)">
+            <summary>
+            查询客户关联的所有收货人
+            </summary>
+            <param name="customerid">客户Id</param>
+            <param name="warehouseid">仓库Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerConsigneeAppService.DeleteAsync(System.String)">
+            <summary>
+            删除客户关联的所有收货人
+            </summary>
+            <param name="customerid">客户Id</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService">
+            <summary>
+            客户-物资应用服务
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService._dataRepository">
+            <summary>
+            客户-物资仓储接口
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService._manager">
+            <summary>
+            客户-物资域服务接口
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService._options">
+            <summary>
+            微服务Uri
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService.#ctor(Abp.Domain.Repositories.IRepository{ZiytekWMSPlatform.CRM.Entities.Desc_Customer_Material,System.String},ZiytekWMSPlatform.CRM.IRepositories.IDescCustomerMaterialRepository,ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerMaterialManager,Microsoft.Extensions.Options.IOptions{Nezada.Common.ServiceUri.ServiceUri})">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService.CreateDescCustomerMaterialAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto)">
+            <summary>
+            新增客户-物资
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService.Delete(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppDeleteInputDto)">
+            <summary>
+            删除客户-物资
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService.Update(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppUpdateInputDto)">
+            <summary>
+            修改客户-物资
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService.Get(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetInputDto)">
+            <summary>
+            获取客户-物资
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService.GetAllListAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto)">
+            <summary>
+            查询客户-物资
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService.ImportCustomerMaterial(System.IO.Stream,System.String,ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto)">
+            <summary>
+            导入客户物资关系
+            </summary>
+            <param name="stream">Excel文件路径</param>
+            <param name="fileName">Excel文件名</param>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService.ExportFailDataList(System.Collections.Generic.List{ZiytekWMSPlatform.CRM.AppServices.ExprotMaterialInfo})">
+            <summary>
+            导出失败的数据
+            </summary>
+            <param name="data">失败数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService.InputCustomerMaterialAsync(System.Collections.Generic.List{ZiytekWMSPlatform.CRM.AppServices.SaveExcel_AppInputDto})">
+            <summary>
+            插入客户物资
+            </summary>
+            <param name="data">成功数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerMaterialAppService.GetAllCustomerMaterialAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto)">
+            <summary>
+            查询客户-物资选项列表（后端使用）
+            </summary>
+            <param name="input">条件参数</param>
+            <returns>
+            <see cref="T:Nezada.Common.Model.SelectedItem" langword="true">客户-物资列表</see>
+            </returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerMaterialAppService">
+            <summary>
+            客户-物资应用服务接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerMaterialAppService.CreateDescCustomerMaterialAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto)">
+            <summary>
+            新增客户-物资
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerMaterialAppService.GetAllListAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto)">
+            <summary>
+            查询客户-物资
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerMaterialAppService.ImportCustomerMaterial(System.IO.Stream,System.String,ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto)">
+            <summary>
+            导入客户物资关系
+            </summary>
+            <param name="stream">Excel文件路径</param>
+            <param name="fileName">Excel文件名</param>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerMaterialAppService.ExportFailDataList(System.Collections.Generic.List{ZiytekWMSPlatform.CRM.AppServices.ExprotMaterialInfo})">
+            <summary>
+            导出错误数据
+            </summary>
+            <param name="data">错误数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerMaterialAppService.InputCustomerMaterialAsync(System.Collections.Generic.List{ZiytekWMSPlatform.CRM.AppServices.SaveExcel_AppInputDto})">
+            <summary>
+            保存维护客户物资
+            </summary>
+            <param name="data">成功数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerMaterialAppService.GetAllCustomerMaterialAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto)">
+            <summary>
+            查询客户-物资选项列表（后端使用）
+            </summary>
+            <param name="input">条件参数</param>
+            <returns>
+            <see cref="T:Nezada.Common.Model.SelectedItem" langword="true">客户-物资列表</see>
+            </returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.DescCustomerWarehouseAppService">
+            <summary>
+            客户-仓库应用服务
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.DescCustomerWarehouseAppService._dataRepository">
+            <summary>
+            客户-仓库仓储接口
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.DescCustomerWarehouseAppService._manager">
+            <summary>
+            客户-仓库域服务接口
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.DescCustomerWarehouseAppService._options">
+            <summary>
+            微服务Uri
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerWarehouseAppService.#ctor(Abp.Domain.Repositories.IRepository{ZiytekWMSPlatform.CRM.Entities.Desc_Customer_Warehouse,System.String},ZiytekWMSPlatform.CRM.IRepositories.IDescCustomerWarehouseRepository,ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerWarehouseManager,Microsoft.Extensions.Options.IOptions{Nezada.Common.ServiceUri.ServiceUri})">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerWarehouseAppService.CreateDescCustomerWarehouseAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppCreateInputDto)">
+            <summary>
+            新增客户-仓库
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerWarehouseAppService.CreateDescCustomerWarehouseAsync(System.String,System.Collections.Generic.List{ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppCreateInputDto})">
+            <summary>
+            新增客户-仓库
+            </summary>
+            <param name="customerid">客户Id</param>
+            <param name="customerWarehouseList">客户-仓库关系列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerWarehouseAppService.Delete(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppDeleteInputDto)">
+            <summary>
+            删除客户-仓库
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerWarehouseAppService.DeleteAsync(System.String)">
+            <summary>
+            删除客户关联的所有仓库
+            </summary>
+            <param name="customerid">客户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerWarehouseAppService.Update(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppUpdateInputDto)">
+            <summary>
+            修改客户-仓库
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerWarehouseAppService.Get(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppGetInputDto)">
+            <summary>
+            获取客户-仓库
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerWarehouseAppService.GetAllListAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppGetAllInputDto)">
+            <summary>
+            查询客户-仓库
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.DescCustomerWarehouseAppService.GetCustomerWarehouseAsync(System.String,System.String)">
+            <summary>
+            查询客户关联的所有仓库
+            </summary>
+            <param name="customerid">客户Id</param>
+            <param name="tenantId">租户Id</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerWarehouseAppService">
+            <summary>
+            客户-仓库应用服务接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerWarehouseAppService.CreateDescCustomerWarehouseAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppCreateInputDto)">
+            <summary>
+            新增客户-仓库
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerWarehouseAppService.GetAllListAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppGetAllInputDto)">
+            <summary>
+            查询客户-仓库
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerWarehouseAppService.CreateDescCustomerWarehouseAsync(System.String,System.Collections.Generic.List{ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppCreateInputDto})">
+            <summary>
+            新增客户-仓库
+            </summary>
+            <param name="customerid">客户Id</param>
+            <param name="customerWarehouseList">客户-仓库关系列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerWarehouseAppService.GetCustomerWarehouseAsync(System.String,System.String)">
+            <summary>
+            查询客户关联的所有仓库
+            </summary>
+            <param name="customerid">客户Id</param>
+            <param name="tenantId">租户Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IDescCustomerWarehouseAppService.DeleteAsync(System.String)">
+            <summary>
+            删除客户关联的所有仓库
+            </summary>
+            <param name="customerid">客户Id</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.IPptConsigneeAppService">
+            <summary>
+            收货人应用服务接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IPptConsigneeAppService.CreatePptConsigneeAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppCreateInputDto)">
+            <summary>
+            新增收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IPptConsigneeAppService.GetAllListAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetAllInputDto)">
+            <summary>
+            查询收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IPptConsigneeAppService.GetConsigneeSelectedItemListAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetTreeInputDto)">
+            <summary>
+            查询收货人（用于下拉）
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.PptConsigneeAppService">
+            <summary>
+            收货人应用服务
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.PptConsigneeAppService._dataRepository">
+            <summary>
+            收货人仓储接口
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.PptConsigneeAppService._manager">
+            <summary>
+            收货人域服务接口
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.PptConsigneeAppService._options">
+            <summary>
+            微服务Uri接口
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.PptConsigneeAppService._capPublisher">
+            <summary>
+            消息队列
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptConsigneeAppService.#ctor(Abp.Domain.Repositories.IRepository{ZiytekWMSPlatform.CRM.Entities.Ppt_Consignee,System.String},ZiytekWMSPlatform.CRM.IRepositories.IPptConsigneeRepository,Microsoft.Extensions.Options.IOptions{Nezada.Common.ServiceUri.ServiceUri},DotNetCore.CAP.ICapPublisher,ZiytekWMSPlatform.CRM.DomainServices.IPptConsigneeManager)">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptConsigneeAppService.CreatePptConsigneeAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppCreateInputDto)">
+            <summary>
+            新增收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptConsigneeAppService.Delete(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppDeleteInputDto)">
+            <summary>
+            删除收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptConsigneeAppService.Update(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppUpdateInputDto)">
+            <summary>
+            修改收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptConsigneeAppService.Get(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetInputDto)">
+            <summary>
+            获取收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptConsigneeAppService.GetAllListAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetAllInputDto)">
+            <summary>
+            查询收货人
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptConsigneeAppService.GetConsigneeSelectedItemListAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetTreeInputDto)">
+            <summary>
+            查询收货人（用于下拉）
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.IPptCustomerAppService">
+            <summary>
+            客户应用服务接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IPptCustomerAppService.CreatePptCustomerAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppCreateInputDto)">
+            <summary>
+            新增客户
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IPptCustomerAppService.GetAllListAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto)">
+            <summary>
+            查询客户
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IPptCustomerAppService.GetCustomerSelectedItemListAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetTreeInputDto)">
+            <summary>
+            查询客户可选项列表
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IPptCustomerAppService.GetCustomerWarehouseListAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto)">
+            <summary>
+            查询客户合作仓库所属物资列表
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService">
+            <summary>
+            客户应用服务
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService._dataRepository">
+            <summary>
+            客户仓储接口
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService._manager">
+            <summary>
+            客户域服务接口
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService._capPublisher">
+            <summary>
+            消息队列
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService._options">
+            <summary>
+            微服务Uri
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService._customerConsigneeAppService">
+            <summary>
+            客户-收货人关系
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService._customerWarehouseAppService">
+            <summary>
+            客户-仓库关系
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService.#ctor(Abp.Domain.Repositories.IRepository{ZiytekWMSPlatform.CRM.Entities.Ppt_Customer,System.String},ZiytekWMSPlatform.CRM.IRepositories.IPptCustomerRepository,ZiytekWMSPlatform.CRM.DomainServices.IPptCustomerManager,DotNetCore.CAP.ICapPublisher,Microsoft.Extensions.Options.IOptions{Nezada.Common.ServiceUri.ServiceUri},ZiytekWMSPlatform.CRM.AppServices.IDescCustomerConsigneeAppService,ZiytekWMSPlatform.CRM.AppServices.IDescCustomerWarehouseAppService)">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService.CreatePptCustomerAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppCreateInputDto)">
+            <summary>
+            新增客户
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService.Delete(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppDeleteInputDto)">
+            <summary>
+            删除客户
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService.Update(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppUpdateInputDto)">
+            <summary>
+            修改客户
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService.Get(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetInputDto)">
+            <summary>
+            获取客户
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService.GetAllListAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto)">
+            <summary>
+            查询客户
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService.GetCustomerSelectedItemListAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetTreeInputDto)">
+            <summary>
+            查询客户可选项列表
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.PptCustomerAppService.GetCustomerWarehouseListAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto)">
+            <summary>
+            查询客户合作仓库所属物资列表
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_BaseDto">
+            <summary>
+            客户-收货人BaseDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_BaseDto.Customerid">
+            <summary>
+            客户Id（前端不传）
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_BaseDto.Consigneeid">
+            <summary>
+            收货人Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppInputDto">
+            <summary>
+            客户-收货人AppInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppCreateInputDto">
+            <summary>
+            客户-收货人_新增AppCreateInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppCreateInputDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppCreateInputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppUpdateInputDto">
+            <summary>
+            客户-收货人_修改AppUpdateInputDto
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppUpdateInputDto.#ctor">
+            <summary>
+            构造
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppUpdateInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppUpdateInputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppUpdateInputDto.LastModifierUserId">
+            <summary>
+            修改人Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppGetInputDto">
+            <summary>
+            客户-收货人_获取AppGetInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppGetInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppGetAllInputDto">
+            <summary>
+            客户-收货人_查询AppGetAllInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppGetAllInputDto.PageNo">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppGetAllInputDto.PageSize">
+            <summary>
+            页容量
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppGetAllInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppGetAllInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppGetAllInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppGetAllInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppDeleteInputDto">
+            <summary>
+            客户-收货人_删除AppDeleteInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppDeleteInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppDeleteInputDto.Customerid">
+            <summary>
+            客户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppDeleteInputDto.Consigneeid">
+            <summary>
+            收货人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppDeleteInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppDeleteInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppDeleteInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppDeleteInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppOutputDto">
+            <summary>
+            客户-收货人_输出AppOutputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppOutputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppOutputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppOutputDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppOutputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppOutputDto.CreatorUserId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppOutputDto.LastModifierUserId">
+            <summary>
+            修改人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppOutputDto.IsDeleted">
+            <summary>
+            删除标识
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_BaseDto">
+            <summary>
+            客户-物资BaseDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_BaseDto.Customerid">
+            <summary>
+            客户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_BaseDto.Materialid">
+            <summary>
+            物资Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_BaseDto.Warehouseid">
+            <summary>
+            仓库Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppInputDto">
+            <summary>
+            客户-物资AppInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto">
+            <summary>
+            客户-物资_新增AppCreateInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppUpdateInputDto">
+            <summary>
+            客户-物资_修改AppUpdateInputDto
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppUpdateInputDto.#ctor">
+            <summary>
+            构造
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppUpdateInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppUpdateInputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppUpdateInputDto.LastModifierUserId">
+            <summary>
+            修改人Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetInputDto">
+            <summary>
+            客户-物资_获取AppGetInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto">
+            <summary>
+            客户-物资_查询AppGetAllInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto.PageNo">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto.PageSize">
+            <summary>
+            页容量
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppGetAllInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppDeleteInputDto">
+            <summary>
+            客户-物资_删除AppDeleteInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppDeleteInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppDeleteInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppDeleteInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppDeleteInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppDeleteInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppOutputDto">
+            <summary>
+            客户-物资_输出AppOutputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppOutputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppOutputDto.Materialname">
+            <summary>
+            物资名称
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppOutputDto.Skuid">
+            <summary>
+            SKU编码
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppOutputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppOutputDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppOutputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppOutputDto.CreatorUserId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppOutputDto.LastModifierUserId">
+            <summary>
+            修改人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppOutputDto.IsDeleted">
+            <summary>
+            删除标识
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.MaterialInfo">
+            <summary>
+            获取物资信息
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.MaterialInfo.Id">
+            <summary>
+            物资Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.MaterialInfo.Name">
+            <summary>
+            物资名称
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.MaterialInfo.Skuid">
+            <summary>
+            SKU编码
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.ExprotMaterialInfo">
+            <summary>
+            导出物资信息
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.ExprotMaterialInfo.ErrorMse">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.ExprotMaterialInfo.Materialname">
+            <summary>
+            物资名称
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.ExprotMaterialInfo.Skuid">
+            <summary>
+            SKU编码
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.OutData_AppOutputDto">
+            <summary>
+            表数据验证_输出AppOutputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.OutData_AppOutputDto.ErrorTable">
+            <summary>
+            失败表
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.OutData_AppOutputDto.SuccessData">
+            <summary>
+            成功表
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.OutData_AppOutputDto.AllCount">
+            <summary>
+            总条数
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.OutData_AppOutputDto.SuccessCount">
+            <summary>
+            成功条数
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.OutData_AppOutputDto.FailCount">
+            <summary>
+            失败条数
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.SaveExcel_AppInputDto">
+            <summary>
+            保存维护客户物资_输入SaveExcel_AppInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.SaveExcel_AppInputDto.Materialid">
+            <summary>
+            物资ID
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.SaveExcel_AppInputDto.Materialname">
+            <summary>
+            物资名称
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.SaveExcel_AppInputDto.Customerid">
+            <summary>
+            客户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.SaveExcel_AppInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.SaveExcel_AppInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.SaveExcel_AppInputDto.Warehouseid">
+            <summary>
+            仓库ID
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_BaseDto">
+            <summary>
+            客户-仓库BaseDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_BaseDto.Customerid">
+            <summary>
+            客户Id（前端不传）
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_BaseDto.Warehouseid">
+            <summary>
+            仓库Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_BaseDto.Begintime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_BaseDto.Endtime">
+            <summary>
+            终止时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_BaseDto.Islongterm">
+            <summary>
+            长期有效
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppInputDto">
+            <summary>
+            客户-仓库AppInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppCreateInputDto">
+            <summary>
+            客户-仓库_新增AppCreateInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppCreateInputDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppCreateInputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppUpdateInputDto">
+            <summary>
+            客户-仓库_修改AppUpdateInputDto
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppUpdateInputDto.#ctor">
+            <summary>
+            构造
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppUpdateInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppUpdateInputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppUpdateInputDto.LastModifierUserId">
+            <summary>
+            修改人Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppGetInputDto">
+            <summary>
+            客户-仓库_获取AppGetInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppGetInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppGetAllInputDto">
+            <summary>
+            客户-仓库_查询AppGetAllInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppGetAllInputDto.PageNo">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppGetAllInputDto.PageSize">
+            <summary>
+            页容量
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppGetAllInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppGetAllInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppGetAllInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppGetAllInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppDeleteInputDto">
+            <summary>
+            客户-仓库_删除AppDeleteInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppDeleteInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppDeleteInputDto.Customerid">
+            <summary>
+            客户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppDeleteInputDto.Warehouseid">
+            <summary>
+            仓库Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppDeleteInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppDeleteInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppDeleteInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppDeleteInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppOutputDto">
+            <summary>
+            客户-仓库_输出AppOutputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppOutputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppOutputDto.WarehouseName">
+            <summary>
+            仓库名称
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppOutputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppOutputDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppOutputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppOutputDto.CreatorUserId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppOutputDto.LastModifierUserId">
+            <summary>
+            修改人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppOutputDto.IsDeleted">
+            <summary>
+            删除标识
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Customer_Warehouse_AppOutputDto">
+            <summary>
+            客户-仓库_输出AppOutputDto
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.Customer_Warehouse_AppOutputDto.#ctor">
+            <summary>
+            构造
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Customer_Warehouse_AppOutputDto.WarehouseList">
+            <summary>
+            合作仓库
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Customer_Warehouse_AppOutputDto.CustomerWarehouseList">
+            <summary>
+            合作时效
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_BaseDto">
+            <summary>
+            收货人BaseDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_BaseDto.Consigneename">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_BaseDto.Mobilephone">
+            <summary>
+            移动电话
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_BaseDto.Receivingunit">
+            <summary>
+            收货单位
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_BaseDto.Warehouseid">
+            <summary>
+            仓库Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_BaseDto.Province">
+            <summary>
+            省
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_BaseDto.City">
+            <summary>
+            市
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_BaseDto.Area">
+            <summary>
+            区
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_BaseDto.Provincetext">
+            <summary>
+            省份
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_BaseDto.Citytext">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_BaseDto.Areatext">
+            <summary>
+            地区
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_BaseDto.Detailaddress">
+            <summary>
+            详细地址
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppInputDto">
+            <summary>
+            收货人AppInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppCreateInputDto">
+            <summary>
+            收货人_新增AppCreateInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppCreateInputDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppCreateInputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppUpdateInputDto">
+            <summary>
+            收货人_修改AppUpdateInputDto
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppUpdateInputDto.#ctor">
+            <summary>
+            构造
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppUpdateInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppUpdateInputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppUpdateInputDto.LastModifierUserId">
+            <summary>
+            修改人Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetInputDto">
+            <summary>
+            收货人_获取AppGetInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetAllInputDto">
+            <summary>
+            收货人_查询AppGetAllInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetAllInputDto.PageNo">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetAllInputDto.PageSize">
+            <summary>
+            页容量
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetAllInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetAllInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetAllInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetAllInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetTreeInputDto">
+            <summary>
+            项目_查询AppGetTreeInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppGetTreeInputDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppDeleteInputDto">
+            <summary>
+            收货人_删除AppDeleteInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppDeleteInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppDeleteInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppDeleteInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppDeleteInputDto.WarehouseId">
+            <summary>
+            仓库Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppDeleteInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppDeleteInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppOutputDto">
+            <summary>
+            收货人_输出AppOutputDto
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppOutputDto.#ctor">
+            <summary>
+            构造
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppOutputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppOutputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppOutputDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppOutputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppOutputDto.CreatorUserId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppOutputDto.LastModifierUserId">
+            <summary>
+            修改人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppOutputDto.IsDeleted">
+            <summary>
+            删除标识
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppOutputDto.AllAddress">
+            <summary>
+            所有的省市区列表
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto">
+            <summary>
+            客户BaseDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.Warehouseid">
+            <summary>
+            仓库Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.Nickname">
+            <summary>
+            别名
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.Website">
+            <summary>
+            网址
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.Ispersonal">
+            <summary>
+            是否属于个人 true个人 false单位
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.Customertype">
+            <summary>
+            客户类型（该字段应该传入 1供应商 2货主 3代销商 4经销商 5分包商）
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.Contact">
+            <summary>
+            联系方式
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.Postcode">
+            <summary>
+            邮编
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.Province">
+            <summary>
+            省
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.City">
+            <summary>
+            市
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.District">
+            <summary>
+            区
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_BaseDto.Isactive">
+            <summary>
+            可用
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppInputDto">
+            <summary>
+            客户AppInputDto
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppInputDto.#ctor">
+            <summary>
+            构造
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppInputDto.CustomerConsigneeList">
+            <summary>
+            客户-收货人关系列表
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppInputDto.CustomerWarehouseList">
+            <summary>
+            客户-仓库关系列表
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppCreateInputDto">
+            <summary>
+            客户_新增AppCreateInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppCreateInputDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppCreateInputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppUpdateInputDto">
+            <summary>
+            客户_修改AppUpdateInputDto
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppUpdateInputDto.#ctor">
+            <summary>
+            构造
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppUpdateInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppUpdateInputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppUpdateInputDto.LastModifierUserId">
+            <summary>
+            修改人Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetInputDto">
+            <summary>
+            客户_获取AppGetInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto">
+            <summary>
+            客户_查询AppGetAllInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto.PageNo">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto.PageSize">
+            <summary>
+            页容量
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetAllInputDto.CreatorUserId">
+            <summary>
+            所有者Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetTreeInputDto">
+            <summary>
+            客户_查询AppGetTreeInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppGetTreeInputDto.Id">
+            <summary>
+            客户Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppDeleteInputDto">
+            <summary>
+            客户_删除AppDeleteInputDto
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppDeleteInputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppDeleteInputDto.OperaterUserId">
+            <summary>
+            操作人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppDeleteInputDto.OperaterUserName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppDeleteInputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppDeleteInputDto.Systemtype">
+            <summary>
+            微应用
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppDeleteInputDto.Warehouseid">
+            <summary>
+            仓库Id
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto">
+            <summary>
+            客户_输出AppOutputDto
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto.#ctor">
+            <summary>
+            构造
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto.WarehouseName">
+            <summary>
+            合作仓库集合
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto.TenantId">
+            <summary>
+            租户Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto.LastModificationTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto.CreatorUserId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto.LastModifierUserId">
+            <summary>
+            修改人Id
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto.IsDeleted">
+            <summary>
+            删除标识
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto.SexList">
+            <summary>
+            性别列表
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto.ConsigneeList">
+            <summary>
+            客户-收货人列表
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto.CustomerWarehouse">
+            <summary>
+            客户-仓库关系
+            </summary>
+        </member>
+        <member name="P:ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppOutputDto.AllAddress">
+            <summary>
+            所有的省市区列表
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.IUserInterface">
+            <summary>
+            用户接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IUserInterface.GetAllUserList(System.String,System.Int32,System.Int32)">
+            <summary>
+            查询用户列表
+            </summary>
+            <param name="tenantId">租户Id</param>
+            <param name="pageNo">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.IAddressInterface">
+            <summary>
+            行政区域接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IAddressInterface.GetAllAddressList(System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            查询所有省市区列表
+            </summary>
+            <param name="provinceid">省份Id</param>
+            <param name="cityid">城市Id</param>
+            <param name="areaid">地区Id</param>
+            <returns>
+            <see cref="T:Nezada.Common.Model.SelectedItem" langword="true">下拉项</see>
+            </returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.IFacilitiesInterface">
+            <summary>
+            仓库设施接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IFacilitiesInterface.GetWarehouseSelectedItemList(System.String,System.Nullable{System.Boolean},System.Int32,System.Int32)">
+            <summary>
+            查询可选择的仓库列表
+            </summary>
+            <param name="tenantid">租户Id</param>
+            <param name="isactive">是否可用</param>
+            <param name="pageNo">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns>
+            <see cref="T:Nezada.Common.Model.SelectedItem" langword="true">下拉项</see>
+            </returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.AppServices.IMaterialInterface">
+            <summary>
+            物资接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IMaterialInterface.GetMaterial(System.String)">
+            <summary>
+            查询物资
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.AppServices.IMaterialInterface.GetAllPptMaterial(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            查询物资列表
+            </summary>
+            <param name="tenantId">租户id</param>
+            <param name="warehouseid">仓库id</param>
+            <param name="pageNo">页码</param>
+            <param name="pageSize">页容量</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.CRMApplicationModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.CRMApplicationModule.Initialize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.CRMApplicationModule.PreInitialize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.CRMAppServiceBase">
+            <summary>
+            Derive your application services from this class.
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.CRMAppServiceBase.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerConsigneeManager">
+            <summary>
+            客户-收货人领域服务
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerConsigneeManager._repository">
+            <summary>
+            客户-收货人仓储接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerConsigneeManager.#ctor(ZiytekWMSPlatform.CRM.IRepositories.IDescCustomerConsigneeRepository)">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerConsigneeManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppCreateInputDto)">
+            <summary>
+            新增验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerConsigneeManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppUpdateInputDto)">
+            <summary>
+            修改验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerConsigneeManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppCreateInputDto,System.Collections.Generic.List{System.String})">
+            <summary>
+            数据验证
+            </summary>
+            <param name="input">条件参数</param>
+            <param name="errMsgList">错误信息集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerConsigneeManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppUpdateInputDto,System.Collections.Generic.List{System.String})">
+            <summary>
+            数据验证
+            </summary>
+            <param name="input">条件参数</param>
+            <param name="errMsgList">错误信息集合</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerConsigneeManager">
+            <summary>
+            客户-收货人领域服务接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerConsigneeManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppCreateInputDto)">
+            <summary>
+            新增验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerConsigneeManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Consignee_AppUpdateInputDto)">
+            <summary>
+            修改验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerMaterialManager">
+            <summary>
+            客户-物资领域服务
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerMaterialManager._repository">
+            <summary>
+            客户-物资仓储接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerMaterialManager.#ctor(ZiytekWMSPlatform.CRM.IRepositories.IDescCustomerMaterialRepository)">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerMaterialManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto)">
+            <summary>
+            新增验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerMaterialManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppUpdateInputDto)">
+            <summary>
+            修改验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerMaterialManager.ImportValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto,System.Data.DataTable,System.Data.DataTable,System.Data.DataTable,System.Collections.Generic.List{ZiytekWMSPlatform.CRM.AppServices.MaterialInfo})">
+            <summary>
+            客户物资导入验证
+            </summary>
+            <param name="input"></param>
+            <param name="dataTable"></param>
+            <param name="errorTable"></param>
+            <param name="successData"></param>
+            <param name="materialInfoList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerMaterialManager.ImportValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto,System.Data.DataTable,System.Data.DataTable,System.Data.DataTable,System.Collections.Generic.List{ZiytekWMSPlatform.CRM.AppServices.MaterialInfo},System.Collections.Generic.List{System.String})">
+            <summary>
+            数据验证
+            </summary>
+            <param name="input"></param>
+            <param name="dataTable"></param>
+            <param name="errorTable"></param>
+            <param name="successData"></param>
+            <param name="materialInfoList"></param>
+            <param name="errMsgList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerMaterialManager.ImportExcelValidateAsync(System.Data.DataTable,System.Data.DataTable,System.Data.DataTable)">
+            <summary>
+            判断excel文件内容是否重复
+            </summary>
+            <param name="dataTable"></param>
+            <param name="errorTable"></param>
+            <param name="filterSuccess"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerMaterialManager.TemplateValidateAsync(System.Data.DataTable)">
+            <summary>
+            Excel数据列名验证
+            </summary>
+            <param name="dt">Excel数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerMaterialManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto,System.Collections.Generic.List{System.String})">
+            <summary>
+            数据验证
+            </summary>
+            <param name="input">条件参数</param>
+            <param name="errMsgList">错误信息集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerMaterialManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppUpdateInputDto,System.Collections.Generic.List{System.String})">
+            <summary>
+            数据验证
+            </summary>
+            <param name="input">条件参数</param>
+            <param name="errMsgList">错误信息集合</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerMaterialManager">
+            <summary>
+            客户-物资领域服务接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerMaterialManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto)">
+            <summary>
+            新增验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerMaterialManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppUpdateInputDto)">
+            <summary>
+            修改验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerMaterialManager.ImportValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Material_AppCreateInputDto,System.Data.DataTable,System.Data.DataTable,System.Data.DataTable,System.Collections.Generic.List{ZiytekWMSPlatform.CRM.AppServices.MaterialInfo})">
+            <summary>
+            客户物资导入验证
+            </summary>
+            <param name="input"></param>
+            <param name="dataTable"></param>
+            <param name="errorTable"></param>
+            <param name="successData"></param>
+            <param name="materialInfoList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerMaterialManager.TemplateValidateAsync(System.Data.DataTable)">
+            <summary>
+            Excel数据列名验证
+            </summary>
+            <param name="dt">Excel数据</param>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerWarehouseManager">
+            <summary>
+            客户-仓库领域服务
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerWarehouseManager._repository">
+            <summary>
+            客户-仓库仓储接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerWarehouseManager.#ctor(ZiytekWMSPlatform.CRM.IRepositories.IDescCustomerWarehouseRepository)">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerWarehouseManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppCreateInputDto)">
+            <summary>
+            新增验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerWarehouseManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppUpdateInputDto)">
+            <summary>
+            修改验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerWarehouseManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppCreateInputDto,System.Collections.Generic.List{System.String})">
+            <summary>
+            数据验证
+            </summary>
+            <param name="input">条件参数</param>
+            <param name="errMsgList">错误信息集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.DescCustomerWarehouseManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppUpdateInputDto,System.Collections.Generic.List{System.String})">
+            <summary>
+            数据验证
+            </summary>
+            <param name="input">条件参数</param>
+            <param name="errMsgList">错误信息集合</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerWarehouseManager">
+            <summary>
+            客户-仓库领域服务接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerWarehouseManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppCreateInputDto)">
+            <summary>
+            新增验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.IDescCustomerWarehouseManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Desc_Customer_Warehouse_AppUpdateInputDto)">
+            <summary>
+            修改验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.DomainServices.IPptConsigneeManager">
+            <summary>
+            收货人领域服务接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.IPptConsigneeManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppCreateInputDto)">
+            <summary>
+            新增验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.IPptConsigneeManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppUpdateInputDto)">
+            <summary>
+            修改验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.DomainServices.PptConsigneeManager">
+            <summary>
+            收货人领域服务
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.DomainServices.PptConsigneeManager._repository">
+            <summary>
+            收货人仓储接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.PptConsigneeManager.#ctor(ZiytekWMSPlatform.CRM.IRepositories.IPptConsigneeRepository)">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.PptConsigneeManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppCreateInputDto)">
+            <summary>
+            新增验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.PptConsigneeManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppUpdateInputDto)">
+            <summary>
+            修改验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.PptConsigneeManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppCreateInputDto,System.Collections.Generic.List{System.String})">
+            <summary>
+            数据验证
+            </summary>
+            <param name="input">条件参数</param>
+            <param name="errMsgList">错误信息集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.PptConsigneeManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Consignee_AppUpdateInputDto,System.Collections.Generic.List{System.String})">
+            <summary>
+            数据验证
+            </summary>
+            <param name="input">条件参数</param>
+            <param name="errMsgList">错误信息集合</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.DomainServices.IPptCustomerManager">
+            <summary>
+            客户领域服务接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.IPptCustomerManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppCreateInputDto)">
+            <summary>
+            新增验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.IPptCustomerManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppUpdateInputDto)">
+            <summary>
+            修改验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZiytekWMSPlatform.CRM.DomainServices.PptCustomerManager">
+            <summary>
+            客户领域服务
+            </summary>
+        </member>
+        <member name="F:ZiytekWMSPlatform.CRM.DomainServices.PptCustomerManager._repository">
+            <summary>
+            客户仓储接口
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.PptCustomerManager.#ctor(ZiytekWMSPlatform.CRM.IRepositories.IPptCustomerRepository)">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.PptCustomerManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppCreateInputDto)">
+            <summary>
+            新增验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.PptCustomerManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppUpdateInputDto)">
+            <summary>
+            修改验证
+            </summary>
+            <param name="input">条件参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.PptCustomerManager.CreateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppCreateInputDto,System.Collections.Generic.List{System.String})">
+            <summary>
+            数据验证
+            </summary>
+            <param name="input">条件参数</param>
+            <param name="errMsgList">错误信息集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:ZiytekWMSPlatform.CRM.DomainServices.PptCustomerManager.UpdateValidateAsync(ZiytekWMSPlatform.CRM.AppServices.Ppt_Customer_AppUpdateInputDto,System.Collections.Generic.List{System.String})">
+            <summary>
+            数据验证
+            </summary>
+            <param name="input">条件参数</param>
+            <param name="errMsgList">错误信息集合</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

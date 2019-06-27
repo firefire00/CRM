@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>1.0.0.0</Version>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>ZiytekWMSPlatform.CRM.Application</AssemblyName>
+    <PackageId>ZiytekWMSPlatform.CRM.Application</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>ZiytekWMSPlatform.CRM.Application</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\ZiytekWMSPlatform.CRM.Application\ZiytekWMSPlatform.CRM.Application.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="ZiytekWMSPlatform.CRM.Application.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ZiytekWMSPlatform.CRM.Application.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZiytekWMSPlatform.CRM.Core\ZiytekWMSPlatform.CRM.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.EntityFrameworkCore" Version="4.6.0" />
+    <PackageReference Include="Abp.AutoMapper" Version="4.6.0" />
+    <PackageReference Include="BeetleX" Version="1.3.2" />
+    <PackageReference Include="BeetleX.FastHttpApi" Version="1.5.2.6" />
+    <PackageReference Include="DotNetCore.CAP" Version="2.5.0" />
+    <PackageReference Include="DotNetCore.CAP.MySql" Version="2.5.0" />
+    <PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="2.5.0" />
+    <PackageReference Include="Nezada.Common.Core" Version="1.6.18" />
+  </ItemGroup>
+</Project>
